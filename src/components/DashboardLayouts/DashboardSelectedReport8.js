@@ -55,7 +55,7 @@ const DashboardSelectedReport5 = ({ data, title }) => {
                <ApexCountByValueBarChart
                   targetColumn="benchmarkId"
                   isHorizontal={true}
-                  xAxisTitle="Number of Assets"
+                  xAxisTitle="Percentage"
                   yAxisTitle= "STIG Benchmark"
                   data={filteredData}
                 />
